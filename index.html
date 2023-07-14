@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+</head>
+<body>
+    
+    <h1 class="ref">Refresh me</h1>
+
+    <div class="container">
+
+        <div class="dicee-one">
+            <h3 class="player1">Player 1</h3>
+            <img class="img1" src="./images/dice1.png" >
+        </div>
+
+        <div class="dicee-two">
+            <h3 class="player2">Player 2</h3>
+             <img class="img2" src="./images/dice5.png" >
+        </div>
+
+    </div>
+
+    <div class="container">
+    <button onclick="playButton()" class="button button1">Roll Dice</button>
+    </div>
+
+    <div class="container">
+        <button type="button" class="button" onclick="editNames()" style="margin-top: 0;">change name</button>
+    </div>
+    <!-- <button onclick="playButton" type="button" class="btn btn-primary" >Play</button> -->
+
+    <script src="move.js" charset="UTF-8"></script>
+</body>
+</html>
