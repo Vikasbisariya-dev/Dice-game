@@ -7,19 +7,16 @@ body{
 .ref{
     text-align: center;
     font-size: 100px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
-
 /* container */
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
-   margin-top: 40px;
+   margin-top: 27px;
+   /* font-size: 10px; */
 }
-
-
-
 .dicee-one{
     margin-right: 65px;
 }
@@ -27,16 +24,13 @@ body{
 .dicee-two{
     margin-left: 65px;
 } 
-.dicee-one h3{
+.dicee-one ,h3, p{
     text-align: center;
 }
-.dicee-two h3{
+.dicee-two ,h3,p{
     text-align: center;
 }
-
-
 /* img1 one and img2*/
-
 .img1{
     height: 200px;
     width: 200px;
@@ -47,9 +41,6 @@ body{
     width: 200px;
     /* margin-left: 65px; */
 }
-
-
-
 /* Buttons */
 .button {
     border: none;
@@ -57,7 +48,7 @@ body{
     padding: 30px 60px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
@@ -65,7 +56,6 @@ body{
     margin-top: 40px;
     border-radius: 10px;
   }
-
   .container{
     display: flex;
     justify-content: center;
